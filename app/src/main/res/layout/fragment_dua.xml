@@ -14,9 +14,16 @@
 
     <Button
         android:id="@+id/btnToTiga"
+        android:layout_below="@id/inputUmur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="To Tiga"
         />
+
+    <EditText
+        android:id="@+id/inputUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Input Umur" />
 
 </RelativeLayout>

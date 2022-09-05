@@ -9,6 +9,7 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_below="@id/btnToSatu"
+        android:id="@+id/txtToSatu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fragment Tiga" />
@@ -17,5 +18,12 @@
         android:layout_width="wrap_content"
         android:text="To Main"
         android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_below="@id/txtToSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getTextUmur"
+        />
 
 </RelativeLayout>

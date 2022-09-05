@@ -23,7 +23,10 @@ class FragmentDua : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         btnToTiga.setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.fragmentTiga)
+            var dataUmur = inputUmur.text.toString()
+            var bun = Bundle()
+            bun.putString("dataumur",dataUmur)
+            Navigation.findNavController(view).navigate(R.id.fragmentTiga,bun)
         }
     }
 
