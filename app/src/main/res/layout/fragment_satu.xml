@@ -16,7 +16,7 @@
         android:id="@+id/btnToDua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dua"
+        android:text="To Dua"
         />
 
 </RelativeLayout>

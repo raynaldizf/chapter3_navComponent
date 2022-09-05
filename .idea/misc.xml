@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/killo/AndroidStudioProjects/chapter3_navComponent/app/src/main/res/layout/activity_login_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/chapter3_navComponent/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/chapter3_navComponent/app/src/main/res/layout/fragment_dua.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/killo/AndroidStudioProjects/chapter3_navComponent/app/src/main/res/layout/fragment_form_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/killo/AndroidStudioProjects/chapter3_navComponent/app/src/main/res/layout/fragment_form_login2.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/chapter3_navComponent/app/src/main/res/layout/fragment_satu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/chapter3_navComponent/app/src/main/res/layout/fragment_tiga.xml" value="0.25416666666666665" />
       </map>
