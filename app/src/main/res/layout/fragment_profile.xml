@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".form_login.HelpFragment">
+    tools:context=".form_login.ProfileFragment">
 
     <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/toolbarFormHelp"
+        android:id="@+id/toolbarProfile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#6200ED">
@@ -24,7 +24,7 @@
                     android:id="@+id/headerTittle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HELP"
+                    android:text="PROFILE"
                     android:layout_centerInParent="true"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
@@ -34,5 +34,24 @@
         </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/outputProfle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textSize="20sp"
+
+        />
+    <Button
+        android:id="@+id/btnKeluar"
+        android:text="Keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
 
 </RelativeLayout>
